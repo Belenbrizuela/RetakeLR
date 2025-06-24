@@ -1,5 +1,4 @@
-Comunidad de VALORANT para la provincia de La Rioja.
-# RETAKE.LR 🎮💻
+# RETAKE.LR - Comunidad de VALORANT para la provincia de La Rioja 🎮💻
 
 Este es mi Trabajo Práctico Final Integrador para la materia **Programación I**, realizado en la Universidad Nacional de La Rioja. El sitio web está inspirado en **VALORANT**, el videojuego de Riot Games, y representa un fan site local con secciones de noticias, equipo competitivo, tienda, formulario de registro y más.
 
