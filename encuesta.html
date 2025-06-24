@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valorant UNlaR | Retake LR </title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
+</head>
+<body class="body-fondo">
+      <header class="barra-nav">
+        <div class="nav-izq">
+            <a href="/index.html" class="logo-link">
+            <img src="img/logo val.png" alt="Logo Valorant" class="logo">
+            <h1 class="bebas-neue-regular">RETAKE.LR</h1>
+            </a>
+        </div>
+        <nav class="nav-opciones">
+            <ul>
+                <li><a href="index.html#Comunidad">Comunidad</a></li>
+                <li><a href="index.html#Noticias">Noticias</a></li>
+                <li><a href="index.html#Staff">Staff</a></li>
+                <li><a href="/estadisticas.html">Actualizaciones</a></li>
+                <li><a href="/encuesta.html">RETAKE UNLaR</a></li>
+                <li><a href="/login.html">Login</a></li>
+            </ul> 
+        </nav>
+    </header>
+    <main>
+        <section class="form-cont">
+            <form action="">
+                <h1>RETAKE UNLaR</h1>   
+                <p>Forma parte de nuestro equipo competitivo y representa a nuestra universidad</p>
+                
+                <label for="nombre">Nombre completo:</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="carrera">Carrera:</label>
+                <input type="text" id="carrera" name="carrera">
+                
+                <label for="riotid">Riot ID (Ej: Nombre#1234):</label>
+                <input type="text" id="riotid" name="riotid" required>
+
+                <label for="rango">Rango actual:</label>
+                <select id="rango" name="rango">
+                    <option value="hierro">Hierro</option>
+                    <option value="bronce">Bronce</option>
+                    <option value="plata">Plata</option>
+                    <option value="oro">Oro</option>
+                    <option value="platino">Platino</option>
+                    <option value="diamante">Diamante</option>
+                    <option value="ascendente">Ascendente</option>
+                    <option value="inmortal">Inmortal</option>
+                    <option value="radiante">Radiante</option>
+                </select>
+
+                <label for="rango_alto">Rango más alto alcanzado:</label>
+                <select id="rango_alto" name="rango_alto">
+                    <option value="hierro">Hierro</option>
+                    <option value="bronce">Bronce</option>
+                    <option value="plata">Plata</option>
+                    <option value="oro">Oro</option>
+                    <option value="platino">Platino</option>
+                    <option value="diamante">Diamante</option>
+                    <option value="ascendente">Ascendente</option>
+                    <option value="inmortal">Inmortal</option>
+                    <option value="radiante">Radiante</option>
+                </select>
+
+                <label for="rol-selection">Rol Principal</label>
+                <div class="role-selection">
+                    <label class="role-option">
+                        <input type="radio" name="rol" value="Duelista">
+                        <img src="img/duelista.png" alt="Duelista">
+                        <span>Duelista</span>
+                    </label>
+                    <label class="role-option">
+                        <input type="radio" name="rol" value="Centinela">
+                        <img src="img/sentinela.png" alt="Centinela">
+                        <span>Centinela</span>
+                    </label>
+                    <label class="role-option">
+                        <input type="radio" name="rol" value="Iniciador">
+                        <img src="img/iniciador.png" alt="Iniciador">
+                        <span>Iniciador</span>
+                    </label>
+                    <label class="role-option">
+                        <input type="radio" name="rol" value="Controlador">
+                        <img src="img/controlador.png" alt="Controlador">
+                        <span>Controlador</span>
+                    </label>
+                </div>
+                
+                <label for="agentes">Agentes principales (hasta 3):</label>
+                <input type="text" id="agentes" name="agentes">
+
+                <label for="disponibilidad">Disponibilidad para entrenar:</label>
+                <textarea id="disponibilidad" name="disponibilidad" rows="3"></textarea>
+
+                <label for="pc">¿Tenés PC propia para jugar?</label>
+                <div class="radio-grup">
+                    <label class="custom-radio">
+                        <input type="radio" name="pc" value="si">
+                        <span>si</span>
+                    </label>
+                    <label class="custom-radio">
+                        <input type="radio" name="pc" value="no">
+                        <span>no</span>
+                    </label>
+                    <label class="custom-radio">
+                        <input type="radio" name="pc" value="aveces">
+                        <span>a veces</span>
+                    </label>
+                </div>
+
+                <label for="micro">¿Contás con micrófono funcional?</label>
+                <div class="radio-grup">
+                    <label class="custom-radio">
+                        <input type="radio" name="micro" value="si">
+                        <span>Sí</span>
+                    </label>
+                    <label class="custom-radio">
+                        <input type="radio" name="micro" value="no">
+                        <span>No</span>
+                    </label>
+                </div>
+
+                <label for="experiencia">Experiencia competitiva:</label>
+                <textarea id="experiencia" name="experiencia" rows="3"></textarea>
+
+                <label for="suplente">De no quedar en el roster principal ¿Aceptarías ser suplente?</label>
+                <div class="radio-grup">
+                    <label class="custom-radio">
+                        <input type="radio" name="suplente" value="si">
+                        <span>Sí</span>
+                    </label>
+                    <label class="custom-radio">
+                        <input type="radio" name="suplente" value="no">
+                        <span>No</span>
+                    </label>
+                    <label class="custom-radio">
+                        <input type="radio" name="suplente" value="depende">
+                        <span>Depende</span>
+                    </label>
+                </div>
+
+                <div class="extras">
+                    <label>¿Te gustaria colaborar con nosotros en otras áreas?</label>
+                    <div class="custom-grup">
+                        <label class="custom-check">
+                            <input type="checkbox" name="extras" value="diseño">
+                            <span>Diseño gráfico</span>
+                        </label>
+                        <label class="custom-check">
+                            <input type="checkbox" name="extras" value="redes">
+                            <span>Redes sociales</span>
+                        </label>
+                        <label class="custom-check">
+                            <input type="checkbox" name="extras" value="caster">
+                            <span>Castear partidas</span>
+                        </label>
+                        <label class="custom-check">
+                            <input type="checkbox" name="extras" value="torneos">
+                            <span>Organización de torneos</span>
+                        </label>
+                        <label class="custom-check">
+                            <input type="checkbox" name="extras" value="estrategia">
+                            <span>Entrenador / Estrategia</span>
+                        </label>
+                        <label class="custom-check">
+                            <input type="checkbox" name="extras" value="solojugar">
+                            <span>No, solo quiero jugar</span>
+                        </label>
+                    </div>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+     <footer class="pie-pag">
+        <div class="fufu">
+             <p>&copy;2020-2025 Riot Games, inc. Todos los derechos no reservados.</p>
+             <p>Trabajo final realizado por: Brizuela, Erika Belen - Programacion I.</p>
+        </div>
+    </footer>
+</body>
+</html>

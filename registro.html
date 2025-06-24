@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registro | Retake LR</title>
+    <link rel="shortcut icon" href="img/icons8-valorant-color-120.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="body-login">
+    <header class="barra-nav">
+        <div class="nav-izq">
+            <a href="/index.html" class="logo-link">
+            <img src="img/logo val.png" alt="Logo Valorant" class="logo">
+            <h1 class="bebas-neue-regular">RETAKE.LR</h1>
+            </a>
+        </div>
+        <nav class="nav-opciones">
+            <ul>
+                <li><a href="index.html#Comunidad">Comunidad</a></li>
+                <li><a href="index.html#Noticias">Noticias</a></li>
+                <li><a href="index.html#Staff">Staff</a></li>
+                <li><a href="/estadisticas.html">Actualizaciones</a></li>
+                <li><a href="/encuesta.html">RETAKE UNLaR</a></li>
+                <li><a href="/login.html">Login</a></li>
+            </ul> 
+        </nav>
+    </header>
+    <main>
+        <div class="login-cont">
+            <section class="login-box">
+                <form class="login-form" action="#" method="POST">
+                    <h1 class="login-title">Crear cuenta</h1>
+                    <p class="login-subtext">Registrate para unirte a la comunidad VALORANT</p>
+
+                    <label for="nombre" class="login-label">Nombre completo:</label>
+                    <input type="text" id="nombre" name="nombre" class="login-input" required />
+
+                    <label for="riotid" class="login-label">Riot ID:</label>
+                    <input type="text" id="riotid" name="riotid" class="login-input" required />
+
+                    <label for="email" class="login-label">Correo electrónico:</label>
+                    <input type="email" id="email" name="email" class="login-input" required />
+
+                    <label for="password" class="login-label">Contraseña:</label>
+                    <input type="password" id="password" name="password" class="login-input" required />
+
+                    <label for="confirm-password" class="login-label">Confirmar contraseña:</label>
+                    <input type="password" id="confirm-password" name="confirm-password" class="login-input" required />
+
+                    <label for="pais-region" class="login-label">País / Región:</label>
+                    <select id="pais-region" name="pais-region" class="login-input" required>
+                        <option value="">Seleccioná tu región</option>
+                        <option value="argentina">Argentina</option>
+                        <option value="chile">Chile</option>
+                        <option value="uruguay">Uruguay</option>
+                        <option value="paraguay">Paraguay</option>
+                        <option value="otro">Otro</option>
+                    </select>
+
+                    <div class="login-check-wrap slim">
+                        <input type="checkbox" id="sorteos" name="sorteos" class="login-checkbox" />
+                        <label for="sorteos" class="login-check-label">Deseo participar en sorteos mensuales</label>
+                    </div>
+
+                    <div class="login-check-wrap slim">
+                        <input type="checkbox" id="terminos" name="terminos" class="login-checkbox" required />
+                        <label for="terminos" class="login-check-label">Acepto los términos y condiciones</label>
+                    </div>
+
+
+                    <p class="login-link">
+                        ¿Ya tenés cuenta?
+                        <a href="login.html">Iniciá sesión</a>
+                    </p>
+
+                    <button type="submit" class="login-button">Crear cuenta</button>
+                </form>
+            </section>
+        </div>
+    </main>
+    <footer class="pie-pag">
+         <div class="fufu">
+             <p>&copy;2020-2025 Riot Games, inc. Todos los derechos no reservados.</p>
+             <p>Trabajo final realizado por: Brizuela, Erika Belen - Programacion I.</p>
+        </div>
+    </footer>
+</body>
+</html>
